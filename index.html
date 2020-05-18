@@ -17,20 +17,24 @@
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="./imagens/logo2.png" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="" id="biglogo" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Entenda</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Por que apoiar?</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#funciona">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#apoio">Por que apoiar?</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#funciona">Como</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Ajudar</a></li>
+
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Time</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Agora</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#agora">Agora</a></li>
                 </ul>
             </div>
         </div>
@@ -41,7 +45,7 @@
             <div><img class="imagelogo" src="./imagens/imageedit_5_4666605946.png"></div>
             <div class="masthead-heading" style="color: yellow;">Apoie uma mulher empreendedora</div>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3" href="#about">Saber mais</a>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3" href="#services">Quero ajudar</a>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger p-3" href="#contact">Quero ajudar</a>
 
         </div>
     </header>
@@ -116,6 +120,26 @@
     <section class="page-section " id="services">
         <div class="container ">
             <div class="text-center ">
+                <h2 class="section-heading text-uppercase " style="font-size: 50px">Nossa Missão</h2>
+            </div>
+
+            <div style="font-size: 19px;">
+                O Amadrinha é uma plataforma que permite que empresas e pessas físicas apoiem microempreendedoras de baixa renda. Um dos grandes problemas que essas mulheres enfretam e que prejudica a evolução de seu negócio é o abalo mental provocado pela sobrecarga
+                de funções. No intuito de mitigar adversidade, vamos possibilitar que o nosso público alvo tenha acesso ao tratamento psicológico, muito pouco utilizado por pessoas de baixa renda, e à uma rede de apoio, para que as microempreendedoras
+                recebam dicas de empreendedorismo e também apoiem umas às outras. Existem outras plataformas que buscam conectar mulheres empreendedoras, mas observamos que não é dado o devido enfoque à saúde mental, o que consideramos como uma lacuna,
+                visto que o público empreendedor é particularmente susceptível à problemas de saúde mental. Além disso, é comum que microempreendedoras periféricas não sejam impactadas por plataformas de empreendedorismo, visto que essas mulheres em muitos
+                casos não possuem um grande acesso às mídias sociais e/ou encontram dificuldade em acessar a internet. Por isso, a nossa iniciativa manterá contato com ONGs e organizações governamentais que já atuam em periferias e por meio delas chegará
+                no grupo de mulheres de baixa renda com pequenos negócios.
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="page-section " id="apoio">
+        <div class="container ">
+            <div class="text-center ">
                 <h2 class="section-heading text-uppercase ">Por que apoiar a nossa iniciativa?</h2>
             </div>
             <br>
@@ -124,8 +148,8 @@
                 <div class="col-md-4 ">
                     <div class="timeline-image "><img class="fa-stack fa-4x rounded-circle img-fluid " src="./imagens/logo05.svg " alt=" " /></div>
                     <h4 class="my-3 ">Mudança Social</h4>
-                    <p class="text-muted ">As mulheres apoiadas terão acesso a tratamento psicológico e contato com outras microempreendedoras, fazendo com que cada uma delas acredite em seu potencial. O maior sucesso nos negócios e a consequente autonomia financeira contribuirão
-                        para a redução da violência
+                    <p class="text-muted ">As mulheres apoiadas terão acesso a tratamento psicológico e contato com outras microempreendedoras, fazendo com que cada uma delas acredite em seu potencial. O maior sucesso nos negócios e a consequente autonomia financeira vão gerar
+                        um grande impacto na vida dessas mulheres
                     </p>
                 </div>
                 <div class="col-md-4 ">
@@ -174,10 +198,11 @@
             </div>
         </div>
     </section>
-    <section class="page-section " id="funciona ">
+    <section class="page-section " id="funciona">
         <div class="container ">
             <div class="text-center ">
                 <h2 class="section-heading text-uppercase ">Mas Como Exatamente A Nossa Ideia Funciona?</h2>
+                <img src="./imagens/final.png" class="col-lg-12">
             </div>
 
 
@@ -185,44 +210,44 @@
     </section>
 
     <!-- Portfolio Grid-->
-    <section class="page-section bg-light " id="portfolio " style="background-color: whitesmoke; ">
-        <div class="container ">
-            <div class="text-center ">
-                <h2 class="section-heading text-uppercase ">Quem Nós Queremos Ajudar?</h2>
-                <h3 class="section-subheading text-muted ">Veja Alguns Depoimentos</h3>
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Quem Nós Queremos Ajudar?</h2>
+                <h3 class="section-subheading text-muted">Veja Alguns Depoimentos</h3>
             </div>
-            <div class="row ">
-                <div class="col-lg-4 col-sm-6 mb-4 ">
-                    <div class="portfolio-item ">
-                        <a class="portfolio-link " data-toggle="modal " href="#portfolioModal1 ">
-                            <div class="portfolio-hover ">
-                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid " src="./imagens/venda0.jpg " alt=" " /></a>
-                        <div class="portfolio-caption ">
-                            <div class="portfolio-caption-heading ">Mulher 1</div>
-                            <div class="portfolio-caption-subheading text-muted ">Vende doces</div>
+                            <img class="img-fluid" src="./imagens/venda0.jpg" alt="" /></a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Mulher 1</div>
+                            <div class="portfolio-caption-subheading text-muted">Venda De Bolos</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4 ">
-                    <div class="portfolio-item ">
-                        <a class="portfolio-link " data-toggle="modal " href="#portfolioModal2 ">
-                            <div class="portfolio-hover ">
-                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x "></i></div>
                             </div>
                             <img class="img-fluid " src="./imagens/milena-curado-cabocla.jpg " alt=" " /></a>
                         <div class="portfolio-caption ">
                             <div class="portfolio-caption-heading ">Mulher 2</div>
-                            <div class="portfolio-caption-subheading text-muted ">Costureira</div>
+                            <div class="portfolio-caption-subheading text-muted ">Costura</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4 ">
-                    <div class="portfolio-item ">
-                        <a class="portfolio-link " data-toggle="modal " href="#portfolioModal3 ">
-                            <div class="portfolio-hover ">
-                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x "></i></div>
                             </div>
                             <img class="img-fluid " src="./imagens/mestres_barro3_foto_Jesus_Carlos_De_Lucena.jpg " /></a>
                         <div class="portfolio-caption ">
@@ -239,83 +264,76 @@
         </div>
     </section>
 
-
-    <section class="page-section bg-light " id="portfolio " style="background-color: whitesmoke; ">
-        <div class="container ">
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
             <div class="text-center ">
                 <h2 class="section-heading text-uppercase ">Mas Como Vamos Alcançar essas Mulheres?</h2>
                 <h3 class="section-subheading text-muted ">Através De Projetos Que Já Atuam Em Periferias E Com Pessoas De Baixa Renda</h3>
             </div>
-            <div class="row ">
-                <div class="col-lg-4 col-sm-6 mb-4 ">
-                    <div class="portfolio-item ">
-                        <a class="portfolio-link " data-toggle="modal " href="#portfolioModal1 ">
-                            <div class="portfolio-hover ">
-                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid " src="./imagens/parceiro01.png " alt=" " /></a>
-                        <div class="portfolio-caption ">
-                            <div class="portfolio-caption-heading ">Livroteca Brincante Do Pina</div>
+                            <img class="img-fluid" src="./imagens/parceiro04.JPG" alt="" /></a>
+                        <div class="portfolio-caption">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4 ">
-                    <div class="portfolio-item ">
-                        <a class="portfolio-link " data-toggle="modal " href="#portfolioModal2 ">
-                            <div class="portfolio-hover ">
-                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x "></i></div>
                             </div>
-                            <img class="img-fluid " src="./imagens/parceiro02.png " alt=" " /></a>
+                            <img class="img-fluid " src="./imagens/parceiro05.png " alt=" " /></a>
                         <div class="portfolio-caption ">
-                            <div class="portfolio-caption-heading ">Centro Comunitário Chão De Estrelas</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4 ">
-                    <div class="portfolio-item ">
-                        <a class="portfolio-link " data-toggle="modal " href="#portfolioModal3 ">
-                            <div class="portfolio-hover ">
-                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x "></i></div>
                             </div>
-                            <img class="img-fluid " src="./imagens/parceiro03.jfif " /></a>
+                            <img class="img-fluid " src="./imagens/parceiro10.png" /></a>
                         <div class="portfolio-caption ">
-                            <div class="portfolio-caption-heading ">Cores Do Amanhã</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4 ">
-                    <div class="portfolio-item ">
-                        <a class="portfolio-link " data-toggle="modal " href="#portfolioModal3 ">
-                            <div class="portfolio-hover ">
-                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x "></i></div>
                             </div>
-                            <img class="img-fluid " src="./imagens/parceiro04.JPG " /></a>
+                            <img class="img-fluid " src="./imagens/parceiro03.jfif" /></a>
                         <div class="portfolio-caption ">
-                            <div class="portfolio-caption-heading ">Casa Da Mulher Do Nordeste</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4 ">
-                    <div class="portfolio-item ">
-                        <a class="portfolio-link " data-toggle="modal " href="#portfolioModal3 ">
-                            <div class="portfolio-hover ">
-                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x "></i></div>
                             </div>
-                            <img class="img-fluid " src="./imagens/parceiro05.png " /></a>
+                            <img class="img-fluid " src="./imagens/parceiro02.png" /></a>
                         <div class="portfolio-caption ">
-                            <div class="portfolio-caption-heading ">Transforma Recife</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4 ">
-                    <div class="portfolio-item ">
-                        <a class="portfolio-link " data-toggle="modal " href="#portfolioModal3 ">
-                            <div class="portfolio-hover ">
-                                <div class="portfolio-hover-content "><i class="fas fa-plus fa-3x "></i></div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x "></i></div>
                             </div>
-                            <img class="img-fluid " src="./imagens/parceiro11.jfif " /></a>
+                            <img class="img-fluid " src="./imagens/parceiro01.png" /></a>
                         <div class="portfolio-caption ">
-                            <div class="portfolio-caption-heading ">Instituto Feminista Para A Democracia</div>
                         </div>
                     </div>
                 </div>
@@ -326,6 +344,7 @@
         </div>
         </div>
     </section>
+
 
 
 
@@ -417,15 +436,17 @@
         </div>
     </section>
 
-    <section class="page-section " id="agora ">
+    <section class="page-section " id="agora">
         <div class="container ">
             <div class="text-center ">
                 <h2 class="section-heading text-uppercase " style="font-size: 50px; ">O Que Podemos Fazer Agora?</h2>
                 <div class="col-md-12 " style="font-size: 20px; ">
                     Além do tratamento psicológico, também pensamos que uma rede de apoio para microempreendedoras é fundamental para que elas acreditem em seu potencial e possam crescer juntas. Captar recursos para custear todos os gastos que teremos no início do projeto
                     não é algo simples, mas existe algo que podemos fazer agora. Vamos criar uma rede de apoio no Whatsapp, que é o meio de comunicação mais usado de acordo com nossa pesquisa, para mulheres compartilharem suas dúvidas e dificuldades.
-                    Para que essa rede seja mais eficiente, contrataremos uma psicóloga e uma pessoa com conhecimentos de empreendedorismos para dedicar uma pequena parte de seu tempo para responder a perguntas e dialogar com essas microempreendedoras
+
                 </div>
+                <br>
+                <img src="./imagens/whats05.png" class=" rounded-circle col-lg-3">
 
 
             </div>
@@ -436,7 +457,7 @@
 
 
     <!-- Team-->
-    <section class="page-section bg-light " id="team ">
+    <section class="page-section bg-light " id="team">
         <div class="container ">
             <div class="text-center ">
                 <h2 class="section-heading text-uppercase ">Nosso time</h2>
@@ -447,8 +468,7 @@
                         <img class="mx-auto rounded-circle " src="assets/img/team/1.jpgdas " alt=" " />
                         <h4>Amanda</h4>
                         <p class="text-muted "></p>
-                        <a class="btn btn-dark btn-social mx-2 " href="#! "><i class="fab fa-twitter "></i></a><a class="btn btn-dark btn-social mx-2 " href="#! "><i class="fab fa-facebook-f "></i></a><a class="btn btn-dark btn-social mx-2 " href="#!
-        "><i class="fab fa-linkedin-in "></i></a>
+
                     </div>
                 </div>
                 <div class="col-lg-4 ">
@@ -456,8 +476,7 @@
                         <img class="mx-auto rounded-circle " src="assets/img/team/2.jpgdas " alt=" " />
                         <h4>Juliana</h4>
                         <p class="text-muted "></p>
-                        <a class="btn btn-dark btn-social mx-2 " href="#! "><i class="fab fa-twitter "></i></a><a class="btn btn-dark btn-social mx-2 " href="#! "><i class="fab fa-facebook-f "></i></a><a class="btn btn-dark btn-social mx-2 " href="#!
-        "><i class="fab fa-linkedin-in "></i></a>
+
                     </div>
                 </div>
                 <div class="col-lg-4 ">
@@ -465,17 +484,15 @@
                         <img class="mx-auto rounded-circle " src="assets/img/team/3.jpgdsa " alt=" " />
                         <h4>Mariana</h4>
                         <p class="text-muted "></p>
-                        <a class="btn btn-dark btn-social mx-2 " href="#! "><i class="fab fa-twitter "></i></a><a class="btn btn-dark btn-social mx-2 " href="#! "><i class="fab fa-facebook-f "></i></a><a class="btn btn-dark btn-social mx-2 " href="#!
-        "><i class="fab fa-linkedin-in "></i></a>
+
                     </div>
                 </div>
                 <div class="col-lg-4 ">
                     <div class="team-member ">
-                        <img class="mx-auto rounded-circle " src="assets/img/team/3.jpgdsa " alt=" " />
+                        <img class="mx-auto rounded-circle " src="./imagens/parceiro01.png" alt=" " />
                         <h4>Rairany</h4>
                         <p class="text-muted "></p>
-                        <a class="btn btn-dark btn-social mx-2 " href="#! "><i class="fab fa-twitter "></i></a><a class="btn btn-dark btn-social mx-2 " href="#! "><i class="fab fa-facebook-f "></i></a><a class="btn btn-dark btn-social mx-2 " href="#!
-        "><i class="fab fa-linkedin-in "></i></a>
+
                     </div>
                 </div>
                 <div class="col-lg-4 ">
@@ -483,8 +500,7 @@
                         <img class="mx-auto rounded-circle " src="assets/img/team/3.jpgdsa " alt=" " />
                         <h4>Wallys</h4>
                         <p class="text-muted "></p>
-                        <a class="btn btn-dark btn-social mx-2 " href="#! "><i class="fab fa-twitter "></i></a><a class="btn btn-dark btn-social mx-2 " href="#! "><i class="fab fa-facebook-f "></i></a><a class="btn btn-dark btn-social mx-2 " href="#!
-        "><i class="fab fa-linkedin-in "></i></a>
+
                     </div>
                 </div>
             </div>
@@ -518,9 +534,16 @@
             </div>
         </div>
     </footer>
+
+
+
+
+
+
+
     <!-- Portfolio Modals-->
     <!-- Modal 1-->
-    <div class="portfolio-modal modal fade " id="portfolioModal1 " tabindex="-1 " role="dialog " aria-hidden="true ">
+    <div class="portfolio-modal modal fade " id="portfolioModal1" tabindex="-1 " role="dialog " aria-hidden="true ">
         <div class="modal-dialog ">
             <div class="modal-content ">
                 <div class="close-modal " data-dismiss="modal "><img src="assets/img/close-icon.svg " /></div>
@@ -552,7 +575,8 @@
                                 <!-- Project Details Go Here-->
                                 <h2 class="text-uppercase">Mulher 2</h2>
 
-                                <p>“Medo, depressão... E ao mesmo tempo buscando novos rumos. Os quais possam ser redirecionados a minha atividade na área do artesanato.” <br> Milena Curado, da Cabocla Criações: trabalho manual como MEI (Foto: Juliana Matos)
+                                <p>“Medo, depressão... E ao mesmo tempo buscando novos rumos. Os quais possam ser redirecionados a minha atividade na área do artesanato.” <br> <br> Milena Curado, da Cabocla Criações: trabalho manual como MEI (Foto: Juliana
+                                    Matos)
 
 
                                 </p>
@@ -577,8 +601,9 @@
                                 <!-- Project Details Go Here-->
                                 <h2 class="text-uppercase">Mulher 3</h2>
 
-                                <p>“Minha maior dificuldade foi, e ainda é, precisar aprender todas as etapas do negócio, desde criar, passando pela produção, técnicas de venda, organização financeira, até o pós venda com o cliente.”</p><br>Trabalho de pintura
-                                no ateliê do mestre Sussula, em Tracunhaém, PE
+                                <p>“Minha maior dificuldade foi, e ainda é, precisar aprender todas as etapas do negócio, desde criar, passando pela produção, técnicas de venda, organização financeira, até o pós venda com o cliente.”</p>
+                                <br>
+                                <br> Fonte: Trabalho de pintura no ateliê do mestre Sussula, em Tracunhaém, PE
 
                                 <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close Project</button>
                             </div>
@@ -592,22 +617,16 @@
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
+                <div class="close-modal" data-dismiss="modal"></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Lines</li>
-                                    <li>Category: Branding</li>
-                                </ul>
+                                <h2 class="text-uppercase">Casa Da Mulher Do Nordeste</h2>
+                                <p>A Casa da Mulher do Nordeste (CMN) é uma organização não governamental feminista que há 38 anos contribui para a igualdade de gênero no Nordeste do Brasil. Sediada em Recife, capital do estado de Pernambuco, e com um escritório
+                                    em Afogados da Ingazeira, Sertão do Pajeú, tem como missão fortalecer a autonomia econômica e política das mulheres, afirmando a agroecologia com base no feminismo e na igualdade racial.</p>
+
                                 <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close Project</button>
                             </div>
                         </div>
@@ -620,22 +639,16 @@
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Southwest</li>
-                                    <li>Category: Website Design</li>
-                                </ul>
+                                <h2 class="text-uppercase">Transforma Recife</h2>
+                                <p class="item-intro text-muted">"Sozinho você pode muito. Unidos podemos muito mais". Esse é o lema do Transforma Recife, programa que busca incentivar e garantir apoio para as pessoas que desejam ser voluntárias na cidade. Com sede no Bairro do Recife,
+                                    a iniciativa conta com uma plataforma digital que cadastra e direciona as ações voluntárias formando uma grande rede de solidariedade. Até o primeiro semestre de 2015, foram cadastrados mais de 13 mil voluntários e
+                                    cerca de 280 ONGs, todos dispostos a fazer do Recife a capital da solidariedade. De acordo com o interesse e disponibilidade de cada um, é possível se engajar em alguma das atividades propostas. </p>
+
                                 <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close Project</button>
                             </div>
                         </div>
@@ -648,22 +661,81 @@
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                                    maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Window</li>
-                                    <li>Category: Photography</li>
-                                </ul>
+                                <h2 class="text-uppercase">instituto Feminista para a Democracia </h2>
+                                <p>O SOS CORPO – instituto Feminista para a Democracia é uma organização da sociedade civil, autônoma, sem fins lucrativos, fundada em 1981, com sede na cidade do Recife – Pernambuco, na região Nordeste do Brasil. Visando
+                                    a emancipação das mulheres, propõe-se a contribuir para a construção de uma sociedade democrática e igualitária com justiça socioambiental. A ação do SOS CORPO tem como fundamento a ideia de que os movimentos de mulheres,
+                                    como movimentos sociais organizados que lutam pela transformação social, são sujeitos políticos que provocam mudanças nas condições de vida das mulheres em geral. Para o SOS CORPO, a luta contra a pobreza, o racismo
+                                    e a homofobia são dimensões fundamentais do feminismo da transformação social para o enfrentamento do sistema capitalista e patriarcal, produtor de desigualdades e sofrimento humano.</p>
+
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Cores Do Amanhã</h2>
+                                <p>O Cores do Amanhã como é conhecido, é uma associação sem fins lucrativos, um grupo formado por educadores, artistas plásticos, grafiteiros, bboys, mc´s, Dj´s , artesões, músicos, e artistas de diversas áreas que buscam
+                                    levar cultura e cidadania através da artes, dos Esportes e do Hip Hop para o Estado de Pernambuco e outras Regiões. Além de atender crianças, jovens e famílias o grupo vem buscando fazer um trabalho mais direcionado
+                                    as mulheres artistas e do Hip Hop com o Grupo Cores Femininas, que veem realizando formações, açoes e encontros que reunem mulheres de dentro e fora de nossa Cidade e país. Missão: Ser uma instituição que promova praticas
+                                    educativas através das artes e dos Esportes, buscando levar cultura e cidadania para crianças, adolescentes, jovens e famílias e mulheres.
+                                </p>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Centro Comunitário Chão De Estrelas</h2>
+                                <p>Construídas sobre um grande manguezal e caracterizada pela presença de altos coqueiros e pelas águas do Rio Beberibe, foram-se erguendo as casas populares que deram início à comunidade de Chão de Estrelas. A comunidade
+                                    fica situada na fronteira das cidades-irmãs Olinda e Recife, de forma que existe muita polêmica sobre o município ao qual a comunidade realmente pertence, estando localizada próxima aos bairros Fundão, Campina do Barreto
+                                    e Arruda, no Recife, e Peixinhos, em Olinda. Chão de Estrelas recebe esse nome por conta dos altos coqueiros da região, cujas sombras formavam enormes estrelas no terreno.</p>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Livroteca Brincante Do Pina</h2>
+                                <p>A Livroteca Brincante do Pina é uma biblioteca formada pela comunidade do Bode, localizada na Zona Sul do Recife e vizinho de Boa Viagem, por voluntários e amigos que se identificam com a causa. Trabalha em parceria com
+                                    a própria comunidade, com o empresariado e governo público, mobilizando recursos e suporte social. Idealizado em maio de 1995 na casa de palafita do músico e poeta Ricardo Gomes (Kcal), o projeto de inclusão social
+                                    com foco no incentivo à leitura e integração artística para crianças (5 - 12 anos) e pré-adolescentes/adolescentes (13 - 18 anos) da comunidade do Bode. Em 2008, a iniciativa chamou a atenção da mídia e ganhou repercussão
+                                    nacional através da visita na época do Ministro da Cultura (Juca Ferreira), dos prefeitos (João Paulo e João da Costa) e do secretário de cultura da cidade do Recife (Roberto Peixe) que fizeram o lançamento nacional
+                                    do I concurso Pontos de Leitura do Ministério da Cultura.​</p>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Close Project</button>
                             </div>
                         </div>
@@ -682,6 +754,18 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
